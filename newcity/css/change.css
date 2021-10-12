@@ -1,0 +1,303 @@
+.slogan.slogan-section-1 {
+    width: 25vw;
+    height: 100px;
+    position: absolute;
+    top: 35%;
+    right: 17vw;
+
+    left: unset;
+    bottom: unset;
+    min-width: 125px;
+}
+
+.slogan.slogan-section-1::after {
+    content: unset;
+}
+
+.slogan.slogan-section-1::before {
+    background: url(../images/change/slogan.png) no-repeat center center/contain;
+}
+
+/* .group-central .map-mobile .map-img {
+    width: 1920px;
+}  */
+
+/* .home-location .box-cover-right {
+    width: 100%;
+}
+
+.home-location .box-cover-right .map-img {
+    transform: unset !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    margin: unset;
+    height: 100%;
+} */
+
+.box-slider .group-central[data-name=home-location] {
+    background: url(../images/change/map-3-background.png) no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.box-slider .group-central[data-name=home-location] .content-main::after {
+    content: unset;
+}
+
+.box-slider .group-central[data-name=home-product] .pic-product {
+    /* width: 50vw;
+    padding-right: 2rem; */
+    width: 55vw;
+    padding-right: 4rem;
+}
+
+.box-slider .group-central[data-name=home-product] .title-main h2::after,
+.box-slider .group-central[data-name=home-facilities] .title-main h2::after {
+    content: unset;
+}
+
+@media screen and (max-width: 1100px) {
+    .box-slider .group-central[data-name=home-product] .pic-product {
+        width: 100%;
+        margin: 1rem 0;
+        padding: unset;
+    }
+
+    svg.pic-product__svg {
+        max-width: unset;
+    }
+
+    div.overlay-menu.show::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(90deg, rgb(2 0 36 / 18%) 0%, rgb(1 0 27 / 42%) 28%, rgb(1 0 14 / 45%) 70%, rgb(0 0 0 / 17%) 100%) !important;
+    }
+}
+
+.pic-product__svg {
+    width: 100%;
+    max-width: 720px;
+    height: 100%;
+}
+
+.box-slider .group-central[data-name=home-facilities] {
+    background: url(../images/change/tien-ich.jpeg) no-repeat center center/cover;
+}
+
+.box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home1 {
+    width: 55%;
+    border-radius: unset;
+    box-shadow: unset;
+    height: 55%;
+    position: absolute;
+    bottom: 10%;
+    left: 0px;
+}
+
+.box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home2 {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+
+.box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home3 {
+    width: 45%;
+    height: 35% !important;
+    top: 19%;
+    right: 17%;
+    position: absolute;
+    margin: unset;
+}
+
+.box-slider .group-central[data-name=contact],
+div.overlay-menu.show {
+    background: url(../images/change/about.jpeg) no-repeat center center/cover;
+}
+
+div.overlay-menu.show::before {
+    content: '';
+    background: linear-gradient(
+    270deg, rgb(2 0 36 / 76%) 0%, rgba(1,0,27,0.41360294117647056) 30%, rgba(0,0,0,0) 100%);
+}
+
+nav.navigation>span {
+    background: unset;
+}
+
+.navigation.show>span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / .15);
+}
+
+.box-slider .box-txt .view-more {
+    font-style: unset;
+    padding: 10px 15px; 
+}
+
+.box-slider .box-txt .view-more {display:inline-block}
+.box-slider .box-txt .view-more::first-letter {text-transform: uppercase}
+
+.box-slider .box-txt .view-more::before {
+    content: unset;
+}
+
+.box-slider .group-central[data-name=contact]::before {
+    content: '';
+    background: unset;
+    background-color: rgba(0, 0, 0, .35); 
+    transform: unset;
+}
+.box-slider .group-central[data-name=contact] .box-contact-main::after {
+    content: unset;
+}
+
+.footer .social .facebook::after {
+    background: url(../images/change/facebook-icon.png) no-repeat center center/cover;
+}
+
+.footer .social .youtube::after {
+    background: url(../images/change/youtube-icon.png) no-repeat center center/cover;
+}
+
+.hotline .hotline-href {
+    font-size: 30px;
+    position: relative;
+    top: 1px;
+}
+
+.icon-register {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: .25rem;
+    background-image: url(../images/change/register.png);
+}
+
+.box-register {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo::after {
+    background: url(../images/change/logo-new.svg) no-repeat center center/contain;
+}
+
+@media screen and (min-width: 1100px) {
+    .overlay-menu::after {
+        content: '';
+        background: url(../images/change/logo-new.svg) 50%/18% no-repeat;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    a.load360 {
+        right: 16px;
+        right: 52px;
+        height: 30px;
+        left: unset;
+        width: 60px;
+    }
+}
+
+.header .nav-click span:nth-child(1)::after {
+    content: unset;
+}
+
+@media only screen and (max-width: 759px) {
+    .icon-register {
+        width: 19px;
+        margin-left: 10px;
+        margin-right: -7px;
+    }
+
+    .slogan.slogan-section-1 {
+        min-width: 240px;
+        top: 10%;
+        right: 5vw;
+    }
+
+    .subscribe.box-register .icon-register {
+        width: 20px;
+        height: 20px;
+    }
+
+    .subscribe.box-register span {
+        font-size: 10px;
+    } 
+}
+
+@media only screen and (max-width: 1100px) {
+    .icon-register {
+        width: 30px;
+        height: 30px;   
+    }
+    .hotline .hotline-href {
+        font-size: 20px;
+    }
+
+    .box-slider .group-central[data-name=home-facilities] .box-facilities {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1.2rem;
+    }
+
+    .box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home1 {
+        position: unset;
+        width: 70%;
+        margin: unset;
+        height: 180px;
+    }
+
+    .box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home2 {
+        width: 55%;
+        height: 180px;
+        position: relative;
+        bottom: unset;
+        right: unset;
+        top: 20px;
+    }
+    .box-slider .group-central[data-name=home-facilities] .box-facilities .item-faci-home3 {
+        width: 55%;
+        height: 180px !important;
+        position: relative;
+        bottom: unset;
+        right: unset;
+        top: unset;
+    }
+}
+
+.partner-info .item-logo img {
+    height: 80px;
+}
+
+@media screen and (max-width: 1600px) {
+    .partner-info .item-logo img {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 1366) {
+    .partner-info .item-logo img {
+        height: 60px;
+    }
+}
